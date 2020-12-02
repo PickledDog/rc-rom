@@ -16,236 +16,178 @@ $EndDescr
 $Comp
 L Connector:Conn_01x39_Male J1
 U 1 1 5F01C5B3
-P 850 3150
-F 0 "J1" H 958 5231 50  0000 C CNN
-F 1 "RC2014" H 958 5140 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x39_P2.54mm_Vertical" H 850 3150 50  0001 C CNN
-F 3 "~" H 850 3150 50  0001 C CNN
-	1    850  3150
+P 750 3150
+F 0 "J1" H 858 5231 50  0000 C CNN
+F 1 "RC2014" H 858 5140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x39_P2.54mm_Vertical" H 750 3150 50  0001 C CNN
+F 3 "~" H 750 3150 50  0001 C CNN
+	1    750  3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x10_Male J2
 U 1 1 5F020A6D
-P 1650 3250
-F 0 "J2" H 1758 3831 50  0000 C CNN
-F 1 "RC2014_Enh" H 1758 3740 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1650 3250 50  0001 C CNN
-F 3 "~" H 1650 3250 50  0001 C CNN
-	1    1650 3250
+P 1850 3250
+F 0 "J2" H 1958 3831 50  0000 C CNN
+F 1 "RC2014_Enh" H 1958 3740 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1850 3250 50  0001 C CNN
+F 3 "~" H 1850 3250 50  0001 C CNN
+	1    1850 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 1250 1200 1250
+	950  1250 1100 1250
 Wire Wire Line
-	1200 1350 1050 1350
+	1100 1350 950  1350
 Wire Wire Line
-	1050 1450 1200 1450
+	950  1450 1100 1450
 Wire Wire Line
-	1200 1550 1050 1550
+	1100 1550 950  1550
 Wire Wire Line
-	1050 1650 1200 1650
+	950  1650 1100 1650
 Wire Wire Line
-	1200 1750 1050 1750
+	1100 1750 950  1750
 Wire Wire Line
-	1050 1850 1250 1850
+	950  1850 1150 1850
 Wire Wire Line
-	1250 1950 1050 1950
+	1150 1950 950  1950
 Wire Wire Line
-	1050 2050 1250 2050
+	950  2050 1150 2050
 Wire Wire Line
-	1250 2150 1050 2150
+	1150 2150 950  2150
 Wire Wire Line
-	1050 2250 1250 2250
+	950  2250 1150 2250
 Wire Wire Line
-	1250 2350 1050 2350
+	1150 2350 950  2350
 Wire Wire Line
-	1050 2450 1250 2450
+	950  2450 1150 2450
 Wire Wire Line
-	1250 2550 1050 2550
+	1150 2550 950  2550
 Wire Wire Line
-	1050 2650 1250 2650
+	950  2650 1150 2650
 Wire Wire Line
-	1250 2750 1050 2750
+	1150 2750 950  2750
 $Comp
 L power:GND #PWR0101
 U 1 1 5F03B979
-P 2450 3000
-F 0 "#PWR0101" H 2450 2750 50  0001 C CNN
-F 1 "GND" H 2455 2827 50  0000 C CNN
-F 2 "" H 2450 3000 50  0001 C CNN
-F 3 "" H 2450 3000 50  0001 C CNN
-	1    2450 3000
+P 2650 3000
+F 0 "#PWR0101" H 2650 2750 50  0001 C CNN
+F 1 "GND" H 2655 2827 50  0000 C CNN
+F 2 "" H 2650 3000 50  0001 C CNN
+F 3 "" H 2650 3000 50  0001 C CNN
+	1    2650 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1050 2850 1850 2850
-Wire Wire Line
-	1050 2950 1850 2950
-Text GLabel 1200 1250 2    50   Output ~ 0
+Text GLabel 1100 1250 2    50   Output ~ 0
 A15
-Text GLabel 1200 1350 2    50   Output ~ 0
+Text GLabel 1100 1350 2    50   Output ~ 0
 A14
-Text GLabel 1200 1450 2    50   Output ~ 0
+Text GLabel 1100 1450 2    50   Output ~ 0
 A13
-Text GLabel 1250 2750 2    50   Output ~ 0
+Text GLabel 1150 2750 2    50   Output ~ 0
 A0
-Text GLabel 1250 2650 2    50   Output ~ 0
+Text GLabel 1150 2650 2    50   Output ~ 0
 A1
-Text GLabel 1250 2550 2    50   Output ~ 0
+Text GLabel 1150 2550 2    50   Output ~ 0
 A2
-Text GLabel 1250 2450 2    50   Output ~ 0
+Text GLabel 1150 2450 2    50   Output ~ 0
 A3
-Text GLabel 1250 2350 2    50   Output ~ 0
+Text GLabel 1150 2350 2    50   Output ~ 0
 A4
-Text GLabel 1250 2250 2    50   Output ~ 0
+Text GLabel 1150 2250 2    50   Output ~ 0
 A5
-Text GLabel 1250 2150 2    50   Output ~ 0
+Text GLabel 1150 2150 2    50   Output ~ 0
 A6
-Text GLabel 1250 2050 2    50   Output ~ 0
+Text GLabel 1150 2050 2    50   Output ~ 0
 A7
-Text GLabel 1250 1950 2    50   Output ~ 0
+Text GLabel 1150 1950 2    50   Output ~ 0
 A8
-Text GLabel 1250 1850 2    50   Output ~ 0
+Text GLabel 1150 1850 2    50   Output ~ 0
 A9
-Text GLabel 1200 1750 2    50   Output ~ 0
+Text GLabel 1100 1750 2    50   Output ~ 0
 A10
-Text GLabel 1200 1650 2    50   Output ~ 0
+Text GLabel 1100 1650 2    50   Output ~ 0
 A11
-Text GLabel 1200 1550 2    50   Output ~ 0
+Text GLabel 1100 1550 2    50   Output ~ 0
 A12
-Text GLabel 1250 3850 2    50   BiDi ~ 0
+Text GLabel 1150 3850 2    50   BiDi ~ 0
 D0
-Text GLabel 1250 3950 2    50   Input ~ 0
+Text GLabel 1150 3950 2    50   Input ~ 0
 D1
-Text GLabel 1250 4050 2    50   Input ~ 0
+Text GLabel 1150 4050 2    50   Input ~ 0
 D2
-Text GLabel 1250 4150 2    50   Input ~ 0
+Text GLabel 1150 4150 2    50   Input ~ 0
 D3
-Text GLabel 1250 4250 2    50   Input ~ 0
+Text GLabel 1150 4250 2    50   Input ~ 0
 D4
-Text GLabel 1250 4350 2    50   Input ~ 0
+Text GLabel 1150 4350 2    50   Input ~ 0
 D5
-Text GLabel 1250 4450 2    50   Input ~ 0
+Text GLabel 1150 4450 2    50   Input ~ 0
 D6
-Text GLabel 1250 4550 2    50   Input ~ 0
+Text GLabel 1150 4550 2    50   Input ~ 0
 D7
 Wire Wire Line
-	1050 3850 1250 3850
+	950  3850 1150 3850
 Wire Wire Line
-	1050 3950 1250 3950
+	950  3950 1150 3950
 Wire Wire Line
-	1050 4050 1250 4050
+	950  4050 1150 4050
 Wire Wire Line
-	1050 4150 1250 4150
+	950  4150 1150 4150
 Wire Wire Line
-	1050 4250 1250 4250
+	950  4250 1150 4250
 Wire Wire Line
-	1050 4350 1250 4350
+	950  4350 1150 4350
 Wire Wire Line
-	1050 4450 1250 4450
+	950  4450 1150 4450
 Wire Wire Line
-	1050 4550 1250 4550
-Text GLabel 1250 3450 2    50   Output ~ 0
+	950  4550 1150 4550
+Text GLabel 1150 3450 2    50   Output ~ 0
 ~MREQ
-Text GLabel 1250 3550 2    50   Output ~ 0
+Text GLabel 1150 3550 2    50   Output ~ 0
 ~WR
-Text GLabel 1250 3650 2    50   Output ~ 0
+Text GLabel 1150 3650 2    50   Output ~ 0
 ~RD
 Wire Wire Line
-	1250 3650 1050 3650
+	1150 3650 950  3650
 Wire Wire Line
-	1250 3550 1050 3550
+	1150 3550 950  3550
 Wire Wire Line
-	1250 3450 1050 3450
-NoConn ~ 1050 4650
-NoConn ~ 1050 4750
-NoConn ~ 1050 4850
-NoConn ~ 1050 4950
-NoConn ~ 1050 5050
-Text GLabel 2100 3150 2    50   Input ~ 0
+	1150 3450 950  3450
+NoConn ~ 950  4650
+NoConn ~ 950  4750
+NoConn ~ 950  4850
+NoConn ~ 950  4950
+NoConn ~ 950  5050
+Text GLabel 2300 3150 2    50   Input ~ 0
 PAGE
 Wire Wire Line
-	1850 3150 2100 3150
+	2050 3150 2300 3150
 $Comp
 L power:+5V #PWR0105
 U 1 1 5F11DB8A
-P 2350 2800
-F 0 "#PWR0105" H 2350 2650 50  0001 C CNN
-F 1 "+5V" H 2365 2973 50  0000 C CNN
-F 2 "" H 2350 2800 50  0001 C CNN
-F 3 "" H 2350 2800 50  0001 C CNN
-	1    2350 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5F38A23A
-P 1900 1450
-F 0 "#FLG0101" H 1900 1525 50  0001 C CNN
-F 1 "PWR_FLAG" H 1900 1623 50  0000 C CNN
-F 2 "" H 1900 1450 50  0001 C CNN
-F 3 "~" H 1900 1450 50  0001 C CNN
-	1    1900 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5F38B194
-P 2250 1600
-F 0 "#FLG0102" H 2250 1675 50  0001 C CNN
-F 1 "PWR_FLAG" H 2250 1773 50  0000 C CNN
-F 2 "" H 2250 1600 50  0001 C CNN
-F 3 "~" H 2250 1600 50  0001 C CNN
-	1    2250 1600
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 5F38B9CE
-P 1900 1600
-F 0 "#PWR0116" H 1900 1350 50  0001 C CNN
-F 1 "GND" H 1905 1427 50  0000 C CNN
-F 2 "" H 1900 1600 50  0001 C CNN
-F 3 "" H 1900 1600 50  0001 C CNN
-	1    1900 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0117
-U 1 1 5F38BE5F
-P 2250 1450
-F 0 "#PWR0117" H 2250 1300 50  0001 C CNN
-F 1 "+5V" H 2265 1623 50  0000 C CNN
-F 2 "" H 2250 1450 50  0001 C CNN
-F 3 "" H 2250 1450 50  0001 C CNN
-	1    2250 1450
+P 2550 2800
+F 0 "#PWR0105" H 2550 2650 50  0001 C CNN
+F 1 "+5V" H 2565 2973 50  0000 C CNN
+F 2 "" H 2550 2800 50  0001 C CNN
+F 3 "" H 2550 2800 50  0001 C CNN
+	1    2550 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 1450 1900 1600
+	2650 2850 2650 3000
 Wire Wire Line
-	2250 1450 2250 1600
-Wire Wire Line
-	1850 2850 2450 2850
-Wire Wire Line
-	2450 2850 2450 3000
-Connection ~ 1850 2850
-Wire Wire Line
-	1850 2950 2350 2950
-Wire Wire Line
-	2350 2950 2350 2800
-Connection ~ 1850 2950
-NoConn ~ 1850 3750
-NoConn ~ 1850 3650
-NoConn ~ 1850 3550
-NoConn ~ 1850 3450
-NoConn ~ 1850 3350
-NoConn ~ 1850 3250
-NoConn ~ 1850 3050
-NoConn ~ 1050 3050
-NoConn ~ 1050 3250
-NoConn ~ 1050 3350
+	2550 2950 2550 2800
+NoConn ~ 2050 3750
+NoConn ~ 2050 3650
+NoConn ~ 2050 3550
+NoConn ~ 2050 3450
+NoConn ~ 2050 3350
+NoConn ~ 2050 3250
+NoConn ~ 2050 3050
+NoConn ~ 950  3050
+NoConn ~ 950  3250
+NoConn ~ 950  3350
 $Comp
 L Memory_EPROM:27C512 U1
 U 1 1 5FC121A3
@@ -283,10 +225,10 @@ Wire Wire Line
 	4650 1300 4650 1550
 Wire Wire Line
 	4650 3750 4650 3850
-Text GLabel 1250 3750 2    50   Output ~ 0
+Text GLabel 1150 3750 2    50   Output ~ 0
 ~IOREQ
 Wire Wire Line
-	1050 3750 1250 3750
+	950  3750 1150 3750
 Text GLabel 4050 1750 0    50   Input ~ 0
 A0
 Text GLabel 4050 1850 0    50   Input ~ 0
@@ -457,10 +399,10 @@ F 3 "74xx/74hc_hct74.pdf" H 9150 3450 50  0001 C CNN
 	1    9150 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 3150 2    50   Output ~ 0
+Text GLabel 1150 3150 2    50   Output ~ 0
 ~RESET
 Wire Wire Line
-	1050 3150 1250 3150
+	950  3150 1150 3150
 Text GLabel 8650 3800 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
@@ -866,7 +808,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 2750 9650 2650
 Text Label 9200 2750 2    50   ~ 0
-LED
+~LED
 Text Label 8300 2850 2    50   ~ 0
 ~LED_CFG
 Wire Wire Line
@@ -1048,9 +990,9 @@ Wire Wire Line
 Wire Wire Line
 	3250 2850 3500 2850
 Text Label 4200 3150 2    50   ~ 0
-ROM_A14S
+ROM_A14'
 Text Label 4200 3250 2    50   ~ 0
-ROM_A15S
+ROM_A15'
 $Comp
 L 4xxx:4075 U4
 U 3 1 5FC3568B
@@ -1073,4 +1015,44 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	2    6250 3550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2050 2950 2550 2950
+Wire Wire Line
+	2050 2850 2650 2850
+Wire Wire Line
+	950  2950 1650 2950
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F38B194
+P 1650 2950
+F 0 "#FLG0102" H 1650 3025 50  0001 C CNN
+F 1 "PWR_FLAG" H 1650 3123 50  0000 C CNN
+F 2 "" H 1650 2950 50  0001 C CNN
+F 3 "~" H 1650 2950 50  0001 C CNN
+	1    1650 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  2850 1650 2850
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F38A23A
+P 1650 2850
+F 0 "#FLG0101" H 1650 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1650 3023 50  0000 C CNN
+F 2 "" H 1650 2850 50  0001 C CNN
+F 3 "~" H 1650 2850 50  0001 C CNN
+	1    1650 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 2950
+Connection ~ 2050 2850
+Connection ~ 1650 2950
+Wire Wire Line
+	1650 2950 2050 2950
+Connection ~ 1650 2850
+Wire Wire Line
+	1650 2850 2050 2850
+Text Label 9650 2750 1    50   ~ 0
+~LED'
 $EndSCHEMATC
