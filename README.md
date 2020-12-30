@@ -1,5 +1,6 @@
 # rc-rom
  ROM card for RC2014
+![Assembled PD104](/img/assembled.jpg)
 
 ## Overview
 This RC2014-compatible board provides ROM from an EPROM or EEPROM, with 8k/16k/32k granularity. The ROM can be paged out and replaced by RAM, when combined with a compatible RAM card. A user-controllable LED is also provided.
@@ -23,6 +24,7 @@ Most (if not all) [RC2014 ROM images](https://github.com/RC2014Z80/RC2014/tree/m
 
 ## Jumper settings
 Refer to the front of the board for detailed jumper setting instructions.
+![Jumpers](/img/jumpers.jpg) ![Settings](/img/settings.jpg)
 
 ## Part selection
 Bill Of Materials and part references are below. In order to make the 50-pin RC2014 Enhanced bus connector, you'll need to take a 2x40-pin right-angle header and pull out most of the pins from the top row (needle-nose pliers work well). I recommend using gold-plated header for this - I use these ones from [Pololu](https://www.pololu.com/product/2668) or [Sparkfun](https://www.sparkfun.com/products/12792). The jumper headers can be snapped from regular (or double-row) breakaway header, for which eBay is substantially cheaper; the Mouser listings are provided for convenience.
