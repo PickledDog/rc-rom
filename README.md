@@ -1,6 +1,7 @@
 # rc-rom
  ROM card for RC2014
 ![Assembled PD104](/img/assembled.jpg)
+(version 1.0 shown, current version 1.1 has a second LED for paging status)
 
 ## Overview
 This RC2014-compatible board provides ROM from an EPROM or EEPROM, with 8k/16k/32k granularity. The ROM can be paged out and replaced by RAM, when combined with a compatible RAM card. A user-controllable LED is also provided.
@@ -34,14 +35,15 @@ The specified parts are just the ones I used, and can be substituted as needed -
 | Reference | Value | Qty | Mouser link |
 | --------- | ----- | --- | ----------- |
 | C1-C4 | 100nF ceramic | 4 | [KEMET C315C104M5U5TA](https://www.mouser.com/ProductDetail/C315C104M5U5TA7303) |
-| D1 | 3mm Yellow LED | 1 | [Lite-On LTL-4251N](https://www.mouser.com/ProductDetail/LTL-4251N/) |
+| D1 | 3mm yellow LED | 1 | [Lite-On LTL-4251N](https://www.mouser.com/ProductDetail/LTL-4251N) |
+| D2 | 3mm green LED | 1 | [Lite-On LTL-4231N](https://www.mouser.com/ProductDetail/LTL-4231N) |
 | J1/2 | 2x40 right-angle header | 1 | [3M 2380-5121TG](https://www.mouser.com/ProductDetail/2380-5121TG) |
 | JP1/2 | 2x3 header | 1 | [Amphenol 10129381-906002BLF](https://www.mouser.com/ProductDetail/10129381-906002BLF) |
-| JP3/4/5 | 3x3 header | 1 | [Samtec TSW-103-07-L-T](https://www.mouser.com/ProductDetail/TSW-103-07-L-T/) |
+| JP3/4/5 | 3x3 header | 1 | [Samtec TSW-103-07-L-T](https://www.mouser.com/ProductDetail/TSW-103-07-L-T) |
 | JP6 | 2x2 header | 1 | [Amphenol 10129381-904002BLF](https://www.mouser.com/ProductDetail/10129381-904002BLF) |
 | | jumpers | 7 | [Harwin M7583-46](https://www.mouser.com/ProductDetail/M7583-46)
 | R1, R2 | 10kΩ resistor | 2 | [Yageo CFR-25JT-52-10K](https://www.mouser.com/ProductDetail/CFR-25JT-52-10K) |
-| R3 | 470Ω resistor | 1 | [Yageo CFR-25JT-52-470R](https://www.mouser.com/ProductDetail/CFR-25JT-52-470R) |
+| R3, R4 | 470Ω resistor | 2 | [Yageo CFR-25JT-52-470R](https://www.mouser.com/ProductDetail/CFR-25JT-52-470R) |
 | U1 | EPROM | 1 | (see above for EPROM choices) |
 | | socket | 1 | [Amphenol DILB28P-223TLF](https://www.mouser.com/ProductDetail/DILB28P-223TLF), or above ZIF |
 | U2 | 74HCT138 | 1 | [TI SN74HCT138N](https://www.mouser.com/ProductDetail/SN74HCT138N) |
