@@ -25,6 +25,7 @@ Most (if not all) [RC2014 ROM images](https://github.com/RC2014Z80/RC2014/tree/m
 
 ## Jumper settings
 Refer to the front of the board for detailed jumper setting instructions.
+
 ![Jumpers](/img/jumpers.jpg) ![Settings](/img/settings.jpg)
 
 ## Part selection
